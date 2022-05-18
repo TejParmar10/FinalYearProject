@@ -1,6 +1,25 @@
-<!-- <?php
+<style>
+    #social-media{
+	/* background: #f8f9fa; */
+	padding:100px 0px;
+}
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px
+}
+.social-icons img{
+	width: 60px;
+	transition: 0.5s;
+
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+    </style>
+ <?php
 include 'header.php';
-?> -->
+?> 
     <div class="welcome-area" id="welcome">
 
         <!-- ***** Header Text Start ***** -->
@@ -20,7 +39,17 @@ include 'header.php';
         <!-- ***** Header Text End ***** -->
     </div>
     <!-- ***** Welcome Area End ***** -->
-    
+    <section id="social-media">
+	<div class="container text-center">
+		<p>Find us on Social Media</p>
+			<div class="social-icons">
+				<a href="#"><img src="assets/images/facebook-icon.png"></a>
+				<a href="#"><img src="assets/images/instagram-icon.png"></a>
+				<a href="#"><img src="assets/images/twitter-icon.png"></a>
+			</div>	
+</div>
+</section>
+
     <!-- ***** Footer Start ***** -->
     <?php
     include 'footer.php'

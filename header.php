@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -48,7 +46,7 @@ https://templatemo.com/tm-537-art-factory
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="index.php">Home</a></li>
                             <li class="scroll-to-section"><a href="about.php">About</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                            <li class="scroll-to-section"><a href="contact.php">Contact Us</a></li>
                             <li class="submenu">
                                 <a href="javascript:;">Signin</a>
                                 <ul>
@@ -56,7 +54,7 @@ https://templatemo.com/tm-537-art-factory
                                     <li><a href="login_signup_brand.html">Brand</a></li>
                                 </ul>
                             </li>
-                            <!-- <li class="scroll-to-section">Welcome:<?php echo $_SESSION['username']?></li> -->
+                            <!-- <li class="scroll-to-section">Welcome:</li> -->
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
