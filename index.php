@@ -1,6 +1,6 @@
-<!-- <?php
+ <?php
 include 'header.php';
-?> -->
+?> 
     <div class="welcome-area" id="welcome">
 
         <!-- ***** Header Text Start ***** -->
