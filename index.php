@@ -20,7 +20,17 @@ include 'header.php';
         <!-- ***** Header Text End ***** -->
     </div>
     <!-- ***** Welcome Area End ***** -->
-    
+    <section id="social-media">
+	<div class="container text-center">
+		<p>Find us on Social Media</p>
+			<div class="social-icons">
+				<a href="#"><img src="assets/images/facebook-icon.png"></a>
+				<a href="#"><img src="assets/images/instagram-icon.png"></a>
+				<a href="#"><img src="assets/images/twitter-icon.png"></a>
+			</div>	
+</div>
+</section>
+
     <!-- ***** Footer Start ***** -->
     <?php
     include 'footer.php'
